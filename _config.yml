@@ -118,29 +118,14 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
-
-  ## Disqus
-  disqus:
-    shortname: # the Disqus shortname for the site
-
-  ## Gitalk
-  # please refer to https://github.com/gitalk/gitalk for more info.
+  provider: false
   gitalk:
-    clientID    : '962b821bfe18b3f10e89' # GitHub Application Client ID
-    clientSecret: '543a104e9363649246b0a8c8c84659bdcfa94a5b' # GitHub Application Client Secret
-    repository  : 'rhgrieve.github.io' # GitHub repo
-    owner       : 'rhgrieve' # GitHub repo owner
-    admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+    clientID    : "962b821bfe18b3f10e89"
+    clientSecret: "543a104e9363649246b0a8c8c84659bdcfa94a5b"
+    repository  : "rhgrieve.github.io"
+    owner       : "rhgrieve"
+    admin: # Github repo owner and collaborators, only these guys can initialize github issues, IT IS A LIST.
       - "rhgrieve"
-
-  ## Valine
-  # please refer to https://valine.js.org/en/ for more info.
-  valine:
-    app_id      : # LeanCloud App id
-    app_key     : # LeanCloud App key
-    placeholder : # Prompt information
-
 
 ## => Pageview
 ##############################
