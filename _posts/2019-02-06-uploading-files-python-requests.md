@@ -1,7 +1,10 @@
 ---
 layout: article
 title: Uploading files to File.io with Python Requests and Click
-tags: python requests click
+tags: 
+- python 
+- requests
+- click
 ---
 
 I recently discovered [file.io](https://file.io), a tool that allows you to upload and share links to files that self-destruct once they're accessed.
