@@ -118,14 +118,14 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: "gitalk"
+  provider: gitalk
   gitalk:
-    clientID    : "962b821bfe18b3f10e89"
-    clientSecret: "543a104e9363649246b0a8c8c84659bdcfa94a5b"
-    repository  : "rhgrieve.github.io"
-    owner       : "rhgrieve"
+    clientID    : 962b821bfe18b3f10e89
+    clientSecret: 543a104e9363649246b0a8c8c84659bdcfa94a5b
+    repository  : rhgrieve.github.io
+    owner       : rhgrieve
     admin: # Github repo owner and collaborators, only these guys can initialize github issues, IT IS A LIST.
-      - "rhgrieve"
+      - rhgrieve
 
 ## => Pageview
 ##############################
@@ -152,11 +152,11 @@ search:
 ## => Analytics
 ##############################
 analytics:
-  provider: "google" # false (default), "google", "custom"
+  provider: google # false (default), "google", "custom"
 
   ## Google Analytics
   google:
-    tracking_id : "UA-134139836-1" # Google Analytics id for the site
+    tracking_id : UA-134139836-1 # Google Analytics id for the site
     anonymize_ip: false # Anonymize IP tracking for Analytics
 
 
