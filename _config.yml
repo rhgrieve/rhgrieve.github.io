@@ -118,7 +118,7 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: false
+  provider: "gitalk"
   gitalk:
     clientID    : "962b821bfe18b3f10e89"
     clientSecret: "543a104e9363649246b0a8c8c84659bdcfa94a5b"
@@ -152,7 +152,7 @@ search:
 ## => Analytics
 ##############################
 analytics:
-  provider: false # false (default), "google", "custom"
+  provider: "google" # false (default), "google", "custom"
 
   ## Google Analytics
   google:
