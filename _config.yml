@@ -118,14 +118,9 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: gitalk
-  gitalk:
-    clientID    : 962b821bfe18b3f10e89
-    clientSecret: 543a104e9363649246b0a8c8c84659bdcfa94a5b
-    repository  : rhgrieve.github.io
-    owner       : rhgrieve
-    admin: # Github repo owner and collaborators, only these guys can initialize github issues, IT IS A LIST.
-      - rhgrieve
+  provider: disqus
+  disqus:
+    shortname: "rhgg"
 
 ## => Pageview
 ##############################
