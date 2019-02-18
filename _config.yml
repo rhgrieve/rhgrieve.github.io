@@ -120,7 +120,7 @@ sharing:
 comments:
   provider: disqus
   disqus:
-    shortname: "rhgg"
+    shortname: rhgg
 
 ## => Pageview
 ##############################
